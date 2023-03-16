@@ -1,5 +1,5 @@
-if(window.innerWidth>=600){
-document.body.style.zoom = "115%"}else {document.body.style.zoom = "100%"}
+// if(window.innerWidth>=600){
+// document.body.style.zoom = "115%"}else {document.body.style.zoom = "100%"}
 
 let module ={
     mid:10,
