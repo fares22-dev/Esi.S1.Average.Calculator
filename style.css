@@ -231,8 +231,8 @@ h1{
 .container{
     display: grid;
     grid-template-columns:repeat(2,minmax(0,1fr))   ;
-    height: 500px;
-    width: 200px;
+    height: 510px;
+    width: 220px;
     margin: 20px 10px 0px -20px;
     position: relative;
     right: 40px;
