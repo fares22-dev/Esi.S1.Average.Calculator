@@ -60,12 +60,12 @@ let finals=document.querySelectorAll(".final");
 let tds=document.querySelectorAll(".td");
    
 for (let i=0;i<8;i++){
-    modules[i].mid=parseInt(mids[i].value);
-    modules[i].final=parseInt(finals[i].value);
-    modules[i].td=parseInt(tds[i].value);
+    modules[i].mid=parseFloat(mids[i].value);
+    modules[i].final=parseFloat(finals[i].value);
+    modules[i].td=parseFloat(tds[i].value);
 
 }
-algo.tp=parseInt(document.getElementById("tp").value);
+algo.tp=parseFloat(document.getElementById("tp").value);
 
 calcAvrg=function(){
     return (algo.avrg()+archi.avrg()+analyse.avrg()+algebre.avrg()+system.avrg()+elec.avrg()+web.avrg()+fr.avrg())/26
