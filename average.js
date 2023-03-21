@@ -31,7 +31,7 @@ td:10,
 tp:10,
 coeff :5,  
 avrg:function () {
-    return ((((this.tp*2)+this.td)/3)+this.mid+this.final)*this.coeff/3;
+    return (((this.tp+(this.td*2))/3)+this.mid+this.final)*this.coeff/3;
 }
 }
 
