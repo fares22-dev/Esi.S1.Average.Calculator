@@ -1,5 +1,3 @@
-// if(window.innerWidth>=600){
-// document.body.style.zoom = "115%"}else {document.body.style.zoom = "100%"}
 
 let module ={
     mid:10,
@@ -33,7 +31,7 @@ td:10,
 tp:10,
 coeff :5,  
 avrg:function () {
-    return (((this.tp+this.td)/2)+this.mid+this.final)*this.coeff/3;
+    return ((((this.tp*2)+this.td)/3)+this.mid+this.final)*this.coeff/3;
 }
 }
 
